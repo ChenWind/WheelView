@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84F83961614EDFD000901A6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D84F83951614EDFD000901A6 /* README */; };
 		D88911A21610F85B00549BDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88911A11610F85B00549BDB /* UIKit.framework */; };
 		D88911A41610F85B00549BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88911A31610F85B00549BDB /* Foundation.framework */; };
 		D88911A61610F85B00549BDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88911A51610F85B00549BDB /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84F83951614EDFD000901A6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		D889119D1610F85B00549BDB /* WheelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88911A11610F85B00549BDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D88911A31610F85B00549BDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 				D88911C11610F89100549BDB /* ExampleViewController.h */,
 				D88911C21610F89100549BDB /* ExampleViewController.m */,
 				D88911C31610F89100549BDB /* ExampleViewController.xib */,
+				D84F83951614EDFD000901A6 /* README */,
 				D88911A81610F85B00549BDB /* Supporting Files */,
 			);
 			path = WheelView;
@@ -168,6 +171,7 @@
 				D88911B61610F85B00549BDB /* Default@2x.png in Resources */,
 				D88911B81610F85B00549BDB /* Default-568h@2x.png in Resources */,
 				D88911C51610F89100549BDB /* ExampleViewController.xib in Resources */,
+				D84F83961614EDFD000901A6 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
