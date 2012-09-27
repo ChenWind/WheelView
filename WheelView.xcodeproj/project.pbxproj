@@ -16,6 +16,9 @@
 		D88911B41610F85B00549BDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D88911B31610F85B00549BDB /* Default.png */; };
 		D88911B61610F85B00549BDB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88911B51610F85B00549BDB /* Default@2x.png */; };
 		D88911B81610F85B00549BDB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88911B71610F85B00549BDB /* Default-568h@2x.png */; };
+		D88911C01610F87B00549BDB /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D88911BF1610F87B00549BDB /* WheelView.m */; };
+		D88911C41610F89100549BDB /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88911C21610F89100549BDB /* ExampleViewController.m */; };
+		D88911C51610F89100549BDB /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88911C31610F89100549BDB /* ExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		D88911B31610F85B00549BDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D88911B51610F85B00549BDB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D88911B71610F85B00549BDB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D88911BE1610F87B00549BDB /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		D88911BF1610F87B00549BDB /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		D88911C11610F89100549BDB /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		D88911C21610F89100549BDB /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		D88911C31610F89100549BDB /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,11 @@
 			children = (
 				D88911B01610F85B00549BDB /* AppDelegate.h */,
 				D88911B11610F85B00549BDB /* AppDelegate.m */,
+				D88911BE1610F87B00549BDB /* WheelView.h */,
+				D88911BF1610F87B00549BDB /* WheelView.m */,
+				D88911C11610F89100549BDB /* ExampleViewController.h */,
+				D88911C21610F89100549BDB /* ExampleViewController.m */,
+				D88911C31610F89100549BDB /* ExampleViewController.xib */,
 				D88911A81610F85B00549BDB /* Supporting Files */,
 			);
 			path = WheelView;
@@ -154,6 +167,7 @@
 				D88911B41610F85B00549BDB /* Default.png in Resources */,
 				D88911B61610F85B00549BDB /* Default@2x.png in Resources */,
 				D88911B81610F85B00549BDB /* Default-568h@2x.png in Resources */,
+				D88911C51610F89100549BDB /* ExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,8 @@
 			files = (
 				D88911AE1610F85B00549BDB /* main.m in Sources */,
 				D88911B21610F85B00549BDB /* AppDelegate.m in Sources */,
+				D88911C01610F87B00549BDB /* WheelView.m in Sources */,
+				D88911C41610F89100549BDB /* ExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +208,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -219,7 +235,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -273,6 +289,7 @@
 				D88911BD1610F85B00549BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
